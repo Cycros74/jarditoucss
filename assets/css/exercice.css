@@ -1,0 +1,81 @@
+#logo {
+    width: 300px;
+}
+
+#en_tete {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#promotion {
+    width: 100%
+}
+
+span {
+    font-weight:bold;
+    font: 20pt Arial;
+    display: flex;
+    justify-content: center;
+}
+
+nav, footer {
+    display:flex;
+    background-color: black;
+    height: 50px;
+    align-items: center;  
+}
+
+a {
+    color: white;
+}
+
+li {
+    display: inline-block;
+}
+
+ .colonne{
+    
+     justify-content: baseline;
+ }
+ 
+ #colonne_two {
+
+     background: grey;
+     width: 500px;
+     height: 600px;
+ }
+
+ #colonne {
+     display:flex;
+ }
+ @media screen and (max-width: 768px) 
+{ 
+    #colonne_two
+    { 
+        display: none;
+    } 
+
+    ul.menu
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav, footer 
+    {
+        display: flex;
+    height: 100px;
+    }
+
+    #text
+    {
+        font-size: 14vw;
+        font-size: 14vh;
+    }
+
+}
+
+
+
+
